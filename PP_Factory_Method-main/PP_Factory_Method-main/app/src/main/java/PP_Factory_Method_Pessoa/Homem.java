@@ -12,7 +12,7 @@ public class Homem extends Pessoa {
     public Homem(String nome, String sexo){
         this.nome = nome;
         this.sexo = sexo;
-        System.out.println("Ola Senhor "+this.nome +this.sexo);
+        System.out.println("Ola Senhor "+this.nome);
     }
     
 }
