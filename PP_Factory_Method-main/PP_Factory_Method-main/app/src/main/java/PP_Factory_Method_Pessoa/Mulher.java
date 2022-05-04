@@ -12,6 +12,6 @@ public class Mulher extends Pessoa {
     public Mulher(String nome, String sexo){
         this.nome = nome;
         this.sexo = sexo;
-        System.out.println("Ola Senhor "+this.nome);
+        System.out.println("Ola Senhora "+this.nome);
     }
 }
