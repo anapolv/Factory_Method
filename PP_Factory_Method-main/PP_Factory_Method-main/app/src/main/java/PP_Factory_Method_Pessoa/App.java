@@ -8,13 +8,13 @@ public class App {
     public static void main(String[] args) {
         Factory factory = new Factory();
         
-        String nome = "Ana\n";
-        String sexo = "Sexo F";
+        String nome = "Ana";
+        String sexo = "F";
         
         factory.getPessoa(nome, sexo);
         
-        nome = "Gustavo\n";
-        sexo = "Sexo M";
+        nome = "Gustavo";
+        sexo = "M";
         
         factory.getPessoa(nome, sexo);
         
